@@ -5,4 +5,5 @@ body {
   background-color: hsl(225, 100%, 94%);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position: 0 -50%;
 }
