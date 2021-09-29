@@ -9,9 +9,22 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 section {
   background-color: white;
   width: 30%;
+  border-radius: 5%;
+  text-align: center;
+  overflow: hidden;
+}
+
+#header-img {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.attribution {
+  align-self: flex-end;
 }
