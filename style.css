@@ -5,17 +5,20 @@ body {
   background-color: hsl(225, 100%, 94%);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: 0 -50%;
+  background-position: 0 -20%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
 section {
+  margin: auto;
   background-color: white;
   width: 30%;
+  height: 80vh;
   border-radius: 5%;
   text-align: center;
   overflow: hidden;
@@ -25,6 +28,22 @@ section {
   box-sizing: border-box;
   width: 100%;
 }
+
+#price-plan {
+  background-color: hsl(225, 100%, 98%);
+  margin: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#plan-info {
+  flex-grow: 2;
+  text-align: left;
+}
+
+/* div {
+  border: 1px solid black;
+} */
 
 .attribution {
   position: fixed;
