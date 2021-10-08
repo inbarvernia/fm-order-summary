@@ -5,7 +5,7 @@ body {
   background-color: hsl(225, 100%, 94%);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: 0 -20%;
+  /* background-position: 0 -20%; */
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,8 +17,10 @@ body {
 section {
   margin: auto;
   background-color: white;
-  width: 30%;
-  height: 80vh;
+  /* width: 31%; */
+  /* height: 77%; */
+  width: 451px;
+  height: 696px;
   border-radius: 5%;
   text-align: center;
   overflow: hidden;
@@ -48,4 +50,5 @@ section {
 .attribution {
   position: fixed;
   bottom: 3%;
+  right: 5%;
 }
