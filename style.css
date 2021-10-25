@@ -17,10 +17,8 @@ body {
 section {
   margin: auto;
   background-color: white;
-  /* width: 31%; */
-  /* height: 77%; */
-  width: 451px;
-  height: 696px;
+  width: 28.5rem;
+  height: 44rem;
   border-radius: 18px;
   text-align: center;
   overflow: hidden;
@@ -125,4 +123,10 @@ button:hover {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: url('images/pattern-background-mobile.svg');
+  }
 }
